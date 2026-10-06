@@ -1,0 +1,2 @@
+import Link from "next/link";
+export function Navbar(){return <header className="navbar"><div className="container nav-inner"><Link href="/" className="logo">ALI<span>SITE</span></Link><nav><Link href="/work">نمونه‌کارها</Link><Link href="/services">خدمات</Link><Link href="/blog">بلاگ</Link><Link href="/contact" className="nav-cta">شروع یک پروژه ↗</Link></nav></div></header>}
