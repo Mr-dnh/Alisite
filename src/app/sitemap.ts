@@ -1,0 +1,1 @@
+import type { MetadataRoute } from "next"; export default function sitemap():MetadataRoute.Sitemap{const base="https://alisite.vercel.app";return["","/work","/services","/blog","/contact"].map(path=>({url:base+path,lastModified:new Date()}))}
